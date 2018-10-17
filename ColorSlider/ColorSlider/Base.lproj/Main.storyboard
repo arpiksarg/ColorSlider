@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,14 +14,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColorSlider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rkk-eB-XgT">
-                                <rect key="frame" x="20" y="332" width="374" height="133"/>
+                                <rect key="frame" x="20" y="308" width="335" height="133"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dmM-u6-f2H">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="31"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="R:" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WYX-qr-noV">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="31"/>
@@ -34,7 +34,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="q6M-qV-0HU">
-                                                <rect key="frame" x="58" y="0.0" width="248" height="32"/>
+                                                <rect key="frame" x="58" y="0.0" width="209" height="32"/>
                                                 <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,7 +43,7 @@
                                                 </connections>
                                             </slider>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPZ-SK-17p">
-                                                <rect key="frame" x="314" y="0.0" width="60" height="31"/>
+                                                <rect key="frame" x="275" y="0.0" width="60" height="31"/>
                                                 <color key="backgroundColor" red="0.92552995681762695" green="0.92539887626965833" blue="0.9253726601600647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="wWp-K3-hKl"/>
@@ -55,7 +55,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-8A-jhK">
-                                        <rect key="frame" x="0.0" y="51" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="51" width="335" height="31"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="G:" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="665-DB-M9g">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="31"/>
@@ -68,7 +68,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="wiz-5F-jRL">
-                                                <rect key="frame" x="58" y="0.0" width="248" height="32"/>
+                                                <rect key="frame" x="58" y="0.0" width="209" height="32"/>
                                                 <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -77,7 +77,7 @@
                                                 </connections>
                                             </slider>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D2X-Rv-Tln">
-                                                <rect key="frame" x="314" y="0.0" width="60" height="31"/>
+                                                <rect key="frame" x="275" y="0.0" width="60" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="trQ-Je-4Yu"/>
                                                 </constraints>
@@ -88,7 +88,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oPp-II-Jv3">
-                                        <rect key="frame" x="0.0" y="102" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="102" width="335" height="31"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="B:" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1yz-uB-O85">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="31"/>
@@ -101,7 +101,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="1Xp-ia-DVz">
-                                                <rect key="frame" x="58" y="0.0" width="248" height="32"/>
+                                                <rect key="frame" x="58" y="0.0" width="209" height="32"/>
                                                 <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -110,7 +110,7 @@
                                                 </connections>
                                             </slider>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1r5-Z8-Oaz">
-                                                <rect key="frame" x="314" y="0.0" width="60" height="31"/>
+                                                <rect key="frame" x="275" y="0.0" width="60" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="RcQ-6W-DmS"/>
                                                 </constraints>
@@ -123,7 +123,7 @@
                                 </subviews>
                             </stackView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Nmn-I8-9YQ">
-                                <rect key="frame" x="50" y="104" width="314" height="29"/>
+                                <rect key="frame" x="50" y="80" width="275" height="29"/>
                                 <segments>
                                     <segment title="Red"/>
                                     <segment title="Green"/>
@@ -135,7 +135,7 @@
                                 </connections>
                             </segmentedControl>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dH-7z-12c">
-                                <rect key="frame" x="185" y="555" width="46" height="31"/>
+                                <rect key="frame" x="138" y="507" width="46" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
