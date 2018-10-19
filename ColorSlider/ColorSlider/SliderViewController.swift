@@ -110,7 +110,7 @@ class SliderViewController: UIViewController {
     }
     
     func setBackgroundColor() {
-        let color = UIColor(red: CGFloat(redColorSlider!.value/255.0), green: CGFloat(greenColorSlider!.value/255.0), blue: CGFloat(blueColorSlider!.value/255.0), alpha: 1.0)
+        let color = UIColor(red: CGFloat(redColorSlider.value/255.0), green: CGFloat(greenColorSlider.value/255.0), blue: CGFloat(blueColorSlider.value/255.0), alpha: 1.0)
         
         print(color)
         view.backgroundColor = color
