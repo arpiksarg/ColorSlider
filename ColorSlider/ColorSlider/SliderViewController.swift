@@ -29,18 +29,10 @@ class SliderViewController: UIViewController {
     }
     
     @IBAction func switchValueChanged(_ sender: UISwitch) {
-        if sender.isOn {
-            colorSegment.isEnabled = true
-            redColorSlider.isEnabled = true
-            greenColorSlider.isEnabled = true
-            blueColorSlider.isEnabled = true
-            
-        } else {
-            colorSegment.isEnabled = false
-            redColorSlider.isEnabled = false
-            greenColorSlider.isEnabled = false
-            blueColorSlider.isEnabled = false
-        }
+        colorSegment.isEnabled = sender.isOn
+        redColorSlider.isEnabled = sender.isOn
+        greenColorSlider.isEnabled = sender.isOn
+        blueColorSlider.isEnabled = sender.isOn
     }
     
     @IBAction func segmentValueChanged(_ sender: UISegmentedControl) {
@@ -64,12 +56,16 @@ class SliderViewController: UIViewController {
         }
         
         blueSliderChanged()
-        redSliderChanged()
+        redValueChanged()
         greenSliderChanged()
         
     }
     
     @IBAction func redSliderChanged() {
+        redValueChanged()
+    }
+    
+    func redValueChanged() {
         redColorField.text = String(Int(redColorSlider.value))
         setBackgroundColor()
         setCorrectSegmentValue()
