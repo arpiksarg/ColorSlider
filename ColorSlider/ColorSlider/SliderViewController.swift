@@ -20,12 +20,6 @@ class SliderViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        redColorSlider.value = 255
-        greenColorSlider.value = 0
-        blueColorSlider.value = 0
-        redColorField.text = String(255)
-        greenColorField.text = String(0)
-        bleueColorField.text = String(0)
     }
     
     @IBAction func switchValueChanged(_ sender: UISwitch) {
