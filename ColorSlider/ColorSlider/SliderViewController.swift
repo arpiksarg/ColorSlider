@@ -57,7 +57,7 @@ class SliderViewController: UIViewController {
         
         blueSliderChanged()
         redValueChanged()
-        greenSliderChanged()
+        greenValueChanged()
         
     }
     
@@ -67,6 +67,13 @@ class SliderViewController: UIViewController {
     
     func redValueChanged() {
         redColorField.text = String(Int(redColorSlider.value))
+        setBackgroundColor()
+        setCorrectSegmentValue()
+        setSegmentColor()
+    }
+    
+    func greenValueChanged() {
+        greenColorField.text = String(Int(greenColorSlider.value))
         setBackgroundColor()
         setCorrectSegmentValue()
         setSegmentColor()
