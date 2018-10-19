@@ -20,7 +20,6 @@ class SliderViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
         redColorSlider.value = 255
         greenColorSlider.value = 0
         blueColorSlider.value = 0
