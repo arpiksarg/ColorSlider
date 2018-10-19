@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SliderViewController: UIViewController {
     
     @IBOutlet weak var redColorSlider: UISlider!
     @IBOutlet weak var greenColorSlider: UISlider!
