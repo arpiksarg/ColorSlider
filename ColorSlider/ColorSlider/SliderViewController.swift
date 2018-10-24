@@ -22,7 +22,7 @@ class SliderViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func switchValueChanged(_ sender: UISwitch) {
+    @IBAction func switchAction(_ sender: UISwitch) {
         colorSegment.isEnabled = sender.isOn
         redColorSlider.isEnabled = sender.isOn
         greenColorSlider.isEnabled = sender.isOn
@@ -55,15 +55,15 @@ class SliderViewController: UIViewController {
         
     }
     
-    @IBAction func redSliderChanged() {
+    @IBAction func redSliderAction() {
         redValueChanged()
     }
     
-    @IBAction func greenSliderChanged() {
+    @IBAction func greenSliderAction() {
         greenValueChanged()
     }
     
-    @IBAction func blueSliderChanged(){
+    @IBAction func blueSliderAction(){
         blueValueChanged()
     }
     
